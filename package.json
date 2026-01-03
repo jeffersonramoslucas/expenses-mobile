@@ -6,7 +6,10 @@
     "start": "expo start --lan",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+
+    "build": "expo export --platform web",
+    "preview": "npx serve dist"
   },
   "dependencies": {
     "axios": "^1.6.8",
