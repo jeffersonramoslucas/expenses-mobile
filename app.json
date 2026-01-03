@@ -7,6 +7,12 @@
 
     "web": {
       "bundler": "metro"
+    },
+
+    "experiments": {
+      "web": {
+        "staticRendering": false
+      }
     }
   }
 }
