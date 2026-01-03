@@ -4,6 +4,7 @@
 
   "scripts": {
     "dev": "expo start",
+    
     "build": "expo export --platform web",
     "start": "expo start",
 
