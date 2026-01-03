@@ -1,14 +1,16 @@
 {
   "name": "gastos-mobile",
   "version": "1.0.0",
-  "main": "index.ts",
+
   "scripts": {
-    "start": "expo start --lan",
+    "dev": "expo start",
+    "build": "expo export --platform web",
+    "start": "expo start",
+
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
 
-    "build": "expo export --platform web",
     "preview": "npx serve dist"
   },
   "dependencies": {
